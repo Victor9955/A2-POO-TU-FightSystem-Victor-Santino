@@ -104,9 +104,9 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// </summary>
         /// <param name="s">skill attaquant</param>
         /// <exception cref="NotImplementedException"></exception>
-        public void ReceiveAttack(Skill s)
+        public void ReceiveAttack(Skill s,int attack)
         {
-            if (_health - (s.Power - _baseDefense) <= 0)
+            if (_health - ((s.Power + attack) - _baseDefense ) <= 0)
             {
                 _health = 0;
             }
