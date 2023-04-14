@@ -106,7 +106,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// <exception cref="NotImplementedException"></exception>
         public void ReceiveAttack(Skill s)
         {
-            throw new NotImplementedException();
+            _health -= s.Power - _baseDefense;
         }
         /// <summary>
         /// Equipe un objet au personnage
