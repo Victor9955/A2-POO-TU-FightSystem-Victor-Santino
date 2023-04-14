@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 
 namespace _2023_GC_A2_Partiel_POO.Level_1
 {
@@ -12,14 +13,29 @@ namespace _2023_GC_A2_Partiel_POO.Level_1
         // classe Math & MathF
         public static int Abs(int input)
         {
-            throw new NotImplementedException();
+            int inputToReturn = 0;
+            if (input <= 0)
+            {
+                inputToReturn = (input - input) + (-input);
+            }
+            else
+                inputToReturn = input;
+            Debug.Log(inputToReturn);
+            return inputToReturn;
         }
 
         // Interdictions :
         // classe Math & MathF
         public static int Clamp(int input, int min, int max)
         {
-            throw new NotImplementedException();
+            if (input < max && input >min)
+            {
+                return input;
+            }
+            else if (input > max)
+            {
+                return max;
+            }
         }
 
         // Interdictions :
