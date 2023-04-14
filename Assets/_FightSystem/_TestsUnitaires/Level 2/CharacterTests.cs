@@ -157,8 +157,8 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
         [Test]
         public void FightWithOneTurn()
         {
-            Character pikachu = new Character(100, 10, 30, 20, TYPE.NORMAL);
-            Character bulbizarre = new Character(90, 10, 10, 200, TYPE.NORMAL);
+            Character pikachu = new Character(100, 0, 30, 20, TYPE.NORMAL);
+            Character bulbizarre = new Character(90, 0, 10, 200, TYPE.NORMAL);
             Fight f = new Fight(pikachu, bulbizarre);
             Punch p = new Punch();
 
