@@ -111,14 +111,22 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// <exception cref="ArgumentNullException">Si equipement est null</exception>
         public void Equip(Equipment newEquipment)
         {
-            throw new NotImplementedException();
+            CurrentEquipment = newEquipment;
+            _baseHealth += newEquipment.BonusHealth;
+            _baseAttack += newEquipment.BonusAttack;
+            _baseSpeed += newEquipment.BonusSpeed;
+            _baseDefense += newEquipment.BonusDefense;
         }
         /// <summary>
         /// Desequipe l'objet en cours au personnage
         /// </summary>
         public void Unequip()
         {
-            throw new NotImplementedException();
+            _baseHealth -= CurrentEquipment.BonusHealth;
+            _baseAttack -= CurrentEquipment.BonusAttack;
+            _baseSpeed -= CurrentEquipment.BonusSpeed;
+            _baseDefense -= CurrentEquipment.BonusDefense;
+            CurrentEquipment = null;
         }
 
     }
