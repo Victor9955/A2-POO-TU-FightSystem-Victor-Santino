@@ -14,41 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 181.52727
-    y: 171.92726
-    width: 1206.109
-    height: 714.7636
+    x: 0
+    y: 43.2
+    width: 1536
+    height: 772.8
   m_ShowMode: 4
   m_Title: Test Runner
-  m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 471}
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1206.109
-    height: 664.7636
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 1
-  controlID: 87
---- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -61,18 +37,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 4}
+  - {fileID: 9}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1206.109
-    height: 664.7636
+    y: 30
+    width: 1536
+    height: 722.8
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 286
+  controlID: 26
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1436
+    y: 0
+    width: 100
+    height: 722.8
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -88,11 +90,11 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 920.72723
+    x: 0
     y: 0
-    width: 285.38177
-    height: 664.7636
-  m_MinSize: {x: 275, y: 50}
+    width: 264
+    height: 524.8
+  m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
@@ -109,50 +111,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 227.78181
-    height: 394.47272
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 394.47272
-    width: 920.72723
-    height: 270.2909
+    y: 524.8
+    width: 1436
+    height: 198
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 13}
+  - {fileID: 18}
   m_Selected: 1
   m_LastSelected: 0
---- !u!114 &7
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,22 +141,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 8}
+  - {fileID: 7}
   - {fileID: 2}
-  - {fileID: 9}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206.109
-    height: 714.7636
+    width: 1536
+    height: 772.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &8
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -197,12 +173,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206.109
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &9
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -218,11 +194,36 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 694.7636
-    width: 1206.109
+    y: 752.8
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1436
+    height: 722.8
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 27
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,44 +237,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 4}
   - {fileID: 11}
-  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 920.72723
-    height: 664.7636
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 78
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 5}
-  - {fileID: 12}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 920.72723
-    height: 394.47272
+    width: 1436
+    height: 524.8
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 284
---- !u!114 &12
+  controlID: 28
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -288,20 +264,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 227.78181
+    x: 264
     y: 0
-    width: 692.94543
-    height: 394.47272
+    width: 1172
+    height: 524.8
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 12}
   m_Panes:
+  - {fileID: 16}
   - {fileID: 17}
-  - {fileID: 18}
-  - {fileID: 13}
+  - {fileID: 12}
   m_Selected: 2
   m_LastSelected: 0
---- !u!114 &13
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -321,32 +297,32 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 409.30905
-    y: 201.59999
-    width: 690.94543
-    height: 373.47272
+    x: 264
+    y: 73.6
+    width: 1170
+    height: 503.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 378
-    splitterInitialOffset: 277.52725
+    ID: 182
+    splitterInitialOffset: 312.8
     currentActiveSplitter: -1
     realSizes:
-    - 163.2
-    - 140.50908
+    - 304.8
+    - 128.80002
     relativeSizes:
-    - 0.53690207
-    - 0.46309793
+    - 0.7030162
+    - 0.29698378
     minSizes:
     - 32
     - 32
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 303.70908
+    lastTotalSize: 433.6
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -356,31 +332,15 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 13}
-    m_NewResultList:
-    - id: 1366
-      uniqueId: '[A2 POO][suite]'
-      name: A2 POO
-      fullName: A2 POO
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
+    m_Window: {fileID: 0}
+    m_NewResultList: []
     m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a1357c04ffffff7f
+      m_ExpandedIDs: 
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -404,19 +364,18 @@ MonoBehaviour:
       NotRunHidden: 0
       m_SearchString: 
       selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
+      availableCategories: []
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 13}
+    m_Window: {fileID: 12}
     m_NewResultList:
     - id: 1000
       uniqueId: '[A2 POO][suite]'
       name: A2 POO
       fullName: A2 POO
-      resultStatus: 1
-      duration: 0.2280263
-      messages: 
+      resultStatus: 2
+      duration: 0.0194651
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -429,10 +388,10 @@ MonoBehaviour:
     - id: 1114
       uniqueId: '[Tests.dll][suite]'
       name: Tests.dll
-      fullName: C:/Users/lolla/OneDrive/Documents/Projets/A2 POO TU FightSystem/A2-POO-TU-FightSystem-Victor-Santino/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 1
-      duration: 0.2052485
-      messages: 
+      fullName: C:/Users/Home/Documents/Projet_Unity/A2-POO-TU-FightSystem-Victor-Santino/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 2
+      duration: 0.0146748
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -446,9 +405,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/[_2023_GC_A2_Partiel_POO][suite]
       name: _2023_GC_A2_Partiel_POO
       fullName: _2023_GC_A2_Partiel_POO
-      resultStatus: 1
-      duration: 0.2029889
-      messages: 
+      resultStatus: 2
+      duration: 0.0121742
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -462,9 +421,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/[Tests][suite]
       name: Tests
       fullName: _2023_GC_A2_Partiel_POO.Tests
-      resultStatus: 1
-      duration: 0.2009822
-      messages: 
+      resultStatus: 2
+      duration: 0.0105194
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -479,7 +438,7 @@ MonoBehaviour:
       name: Level_1
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1
       resultStatus: 2
-      duration: 22.336363
+      duration: 0.0081446
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -495,7 +454,7 @@ MonoBehaviour:
       name: MyArrayTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests
       resultStatus: 2
-      duration: 6.5198617
+      duration: 0.0361083
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -511,7 +470,7 @@ MonoBehaviour:
       name: AddElementInArray
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray
       resultStatus: 2
-      duration: 0.5452141
+      duration: 0.0318801
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -527,16 +486,15 @@ MonoBehaviour:
       name: AddElementInArray(System.Int32[],12,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray(System.Int32[],12,System.Int32[])
       resultStatus: 2
-      duration: 0.3075423
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      duration: 0.0084041
+      messages: 'System.IndexOutOfRangeException : Index was outside the bounds of
+        the array.'
       output: 
       stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.AppendElementInArray
-        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:15 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray
+        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00029] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
+        1\\MyArray.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray
         (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -554,21 +512,11 @@ MonoBehaviour:
       name: AddElementInArray(System.Int32[],12,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray(System.Int32[],12,System.Int32[]
         GeneratedTestCase2)
-      resultStatus: 2
-      duration: 0.2085018
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0102856
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.AppendElementInArray
-        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:15 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArray
-        (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyArrayTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -582,7 +530,7 @@ MonoBehaviour:
       name: AddElementInArrayNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck
       resultStatus: 2
-      duration: 0.4781303
+      duration: 0.0094556
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -598,21 +546,16 @@ MonoBehaviour:
       name: AddElementInArrayNullCheck(null,12)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck(null,12)
       resultStatus: 2
-      duration: 0.4743286
+      duration: 0.0075673
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.AppendElementInArray
-        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:15 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass1_0.<AddElementInArrayNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass1_0.<AddElementInArrayNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:31 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.AddElementInArrayNullCheck
-        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\MyArrayTests.cs:29
 
 '
@@ -629,7 +572,7 @@ MonoBehaviour:
       name: ConcatArrays
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
       resultStatus: 2
-      duration: 0.6794784
+      duration: 0.0030144
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -645,17 +588,13 @@ MonoBehaviour:
       name: ConcatArrays(System.Int32[],System.Int32[],System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[])
       resultStatus: 2
-      duration: 0.2158836
+      duration: 0.000404
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.ConcatElementsInArray
-        (System.Int32[] initialArray, System.Int32[] elementsToAdd) [0x00001] in
-        C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:22 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
         (System.Int32[] initialArray, System.Int32[] elementToAdd, System.Int32[]
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -674,17 +613,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase2)
       resultStatus: 2
-      duration: 0.2194762
+      duration: 0.0001706
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.ConcatElementsInArray
-        (System.Int32[] initialArray, System.Int32[] elementsToAdd) [0x00001] in
-        C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:22 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
         (System.Int32[] initialArray, System.Int32[] elementToAdd, System.Int32[]
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -703,17 +638,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase3)
       resultStatus: 2
-      duration: 0.2393393
+      duration: 0.0001657
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.ConcatElementsInArray
-        (System.Int32[] initialArray, System.Int32[] elementsToAdd) [0x00001] in
-        C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:22 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArrays
         (System.Int32[] initialArray, System.Int32[] elementToAdd, System.Int32[]
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -731,7 +662,7 @@ MonoBehaviour:
       name: ConcatArraysNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck
       resultStatus: 2
-      duration: 1.3034004
+      duration: 0.0032236
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -747,21 +678,16 @@ MonoBehaviour:
       name: ConcatArraysNullCheck(System.Int32[],null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(System.Int32[],null)
       resultStatus: 2
-      duration: 0.437896
+      duration: 0.0006118
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.ConcatElementsInArray
-        (System.Int32[] initialArray, System.Int32[] elementsToAdd) [0x00001] in
-        C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:22 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:53 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck
-        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\MyArrayTests.cs:51
 
 '
@@ -778,21 +704,16 @@ MonoBehaviour:
       name: ConcatArraysNullCheck(null,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(null,System.Int32[])
       resultStatus: 2
-      duration: 0.4273926
+      duration: 0.0003429
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.ConcatElementsInArray
-        (System.Int32[] initialArray, System.Int32[] elementsToAdd) [0x00001] in
-        C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:22 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:53 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck
-        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\MyArrayTests.cs:51
 
 '
@@ -809,21 +730,16 @@ MonoBehaviour:
       name: ConcatArraysNullCheck(null,null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck(null,null)
       resultStatus: 2
-      duration: 0.4325382
+      duration: 0.0002776
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.ConcatElementsInArray
-        (System.Int32[] initialArray, System.Int32[] elementsToAdd) [0x00001] in
-        C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:22 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass3_0.<ConcatArraysNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:53 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.ConcatArraysNullCheck
-        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\MyArrayTests.cs:51
 
 '
@@ -840,7 +756,7 @@ MonoBehaviour:
       name: RemoveElementInArray
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
       resultStatus: 2
-      duration: 0.8775235
+      duration: 0.0026367
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -856,16 +772,13 @@ MonoBehaviour:
       name: RemoveElementInArray(System.Int32[],1,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],1,System.Int32[])
       resultStatus: 2
-      duration: 0.2166647
+      duration: 0.0002191
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32 filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
         (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:64 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -883,16 +796,13 @@ MonoBehaviour:
       name: RemoveElementInArray(System.Int32[],2,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],2,System.Int32[])
       resultStatus: 2
-      duration: 0.2295429
+      duration: 0.0001647
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32 filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
         (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:64 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -910,16 +820,13 @@ MonoBehaviour:
       name: RemoveElementInArray(System.Int32[],3,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],3,System.Int32[])
       resultStatus: 2
-      duration: 0.2110783
+      duration: 0.0001115
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32 filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
         (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:64 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -937,16 +844,13 @@ MonoBehaviour:
       name: RemoveElementInArray(System.Int32[],4,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray(System.Int32[],4,System.Int32[])
       resultStatus: 2
-      duration: 0.215007
+      duration: 0.000112
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32 filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArray
         (System.Int32[] initialArray, System.Int32 elementToAdd, System.Int32[] expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:64 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -964,7 +868,7 @@ MonoBehaviour:
       name: RemoveElementInArrayNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck
       resultStatus: 2
-      duration: 0.4373209
+      duration: 0.0020048
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -980,21 +884,16 @@ MonoBehaviour:
       name: RemoveElementInArrayNullCheck(null,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck(null,1)
       resultStatus: 2
-      duration: 0.4328783
+      duration: 0.0004589
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32 filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass5_0.<RemoveElementInArrayNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass5_0.<RemoveElementInArrayNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:74 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementInArrayNullCheck
-        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.Int32[] initialArray, System.Int32 elementToAdd) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\MyArrayTests.cs:72
 
 '
@@ -1011,7 +910,7 @@ MonoBehaviour:
       name: RemoveElementsInArray
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
       resultStatus: 2
-      duration: 0.8852147
+      duration: 0.0032773
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1027,17 +926,13 @@ MonoBehaviour:
       name: RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[])
       resultStatus: 2
-      duration: 0.2304379
+      duration: 0.0002972
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32[] filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
         (System.Int32[] initialArray, System.Int32[] elementsToRemove, System.Int32[]
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:85 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1056,17 +951,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase2)
       resultStatus: 2
-      duration: 0.2099893
+      duration: 0.0007445
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32[] filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
         (System.Int32[] initialArray, System.Int32[] elementsToRemove, System.Int32[]
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:85 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1085,17 +976,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase3)
       resultStatus: 2
-      duration: 0.216301
+      duration: 0.0001038
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32[] filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
         (System.Int32[] initialArray, System.Int32[] elementsToRemove, System.Int32[]
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:85 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1114,17 +1001,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray(System.Int32[],System.Int32[],System.Int32[]
         GeneratedTestCase4)
       resultStatus: 2
-      duration: 0.2208166
+      duration: 0.0001022
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32[] filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArray
         (System.Int32[] initialArray, System.Int32[] elementsToRemove, System.Int32[]
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:85 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1142,7 +1025,7 @@ MonoBehaviour:
       name: RemoveElementsInArrayNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck
       resultStatus: 2
-      duration: 1.3059558
+      duration: 0.0027645
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1158,21 +1041,16 @@ MonoBehaviour:
       name: RemoveElementsInArrayNullCheck(null,System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(null,System.Int32[])
       resultStatus: 2
-      duration: 0.4350988
+      duration: 0.0004515
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32[] filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:97 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck
-        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\MyArrayTests.cs:95
 
 '
@@ -1189,21 +1067,16 @@ MonoBehaviour:
       name: RemoveElementsInArrayNullCheck(System.Int32[],null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(System.Int32[],null)
       resultStatus: 2
-      duration: 0.4364236
+      duration: 0.0002502
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32[] filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:97 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck
-        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\MyArrayTests.cs:95
 
 '
@@ -1220,21 +1093,16 @@ MonoBehaviour:
       name: RemoveElementsInArrayNullCheck(null,null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck(null,null)
       resultStatus: 2
-      duration: 0.4304565
+      duration: 0.0002276
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyArray.RemoveOccurenceInArray
-        (System.Int32[] initialArray, System.Int32[] filter) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyArray.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests+<>c__DisplayClass7_0.<RemoveElementsInArrayNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyArrayTests.cs:97 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyArrayTests.RemoveElementsInArrayNullCheck
-        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.Int32[] initialArray, System.Int32[] elementToAdd) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\MyArrayTests.cs:95
 
 '
@@ -1251,7 +1119,7 @@ MonoBehaviour:
       name: MyMathsTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests
       resultStatus: 2
-      duration: 6.165704
+      duration: 0.0053504
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1266,9 +1134,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest][suite]
       name: AbsoluteTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest
-      resultStatus: 2
-      duration: 0.6503327
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0359013
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1282,21 +1150,13 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AbsoluteTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(1,1)]
       name: AbsoluteTest(1,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(1,1)
-      resultStatus: 2
-      duration: 0.2132435
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
-      output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Abs (System.Int32
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:15 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest
-        (System.Int32 input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:19 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      resultStatus: 1
+      duration: 0.0190086
+      messages: 
+      output: '1
+
+'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1309,21 +1169,13 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AbsoluteTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(-11,11)]
       name: AbsoluteTest(-11,11)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(-11,11)
-      resultStatus: 2
-      duration: 0.2206782
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
-      output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Abs (System.Int32
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:15 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest
-        (System.Int32 input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:19 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      resultStatus: 1
+      duration: 0.0004767
+      messages: 
+      output: '11
+
+'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1336,21 +1188,13 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AbsoluteTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(0,0)]
       name: AbsoluteTest(0,0)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest(0,0)
-      resultStatus: 2
-      duration: 0.214914
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
-      output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Abs (System.Int32
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:15 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AbsoluteTest
-        (System.Int32 input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:19 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      resultStatus: 1
+      duration: 0.0004851
+      messages: 
+      output: '0
+
+'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1364,7 +1208,7 @@ MonoBehaviour:
       name: AverageTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest
       resultStatus: 2
-      duration: 0.432631
+      duration: 0.0023951
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1380,16 +1224,13 @@ MonoBehaviour:
       name: AverageTest(System.Int32[],2,2)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest(System.Int32[],2,2)
       resultStatus: 2
-      duration: 0.2155399
+      duration: 0.000455
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.CalculateAverage (System.Int32[]
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:51 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest
         (System.Int32[] input, System.Single expectedMin, System.Single expectedMax)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyMathsTests.cs:75 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1407,16 +1248,13 @@ MonoBehaviour:
       name: AverageTest(System.Int32[],46.1f,46.2f)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest(System.Int32[],46.1f,46.2f)
       resultStatus: 2
-      duration: 0.2127943
+      duration: 0.0001827
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.CalculateAverage (System.Int32[]
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:51 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTest
         (System.Int32[] input, System.Single expectedMin, System.Single expectedMax)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyMathsTests.cs:75 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1434,7 +1272,7 @@ MonoBehaviour:
       name: AverageTestEmptyInput
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput
       resultStatus: 2
-      duration: 0.4471734
+      duration: 0.0035456
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1450,21 +1288,18 @@ MonoBehaviour:
       name: AverageTestEmptyInput(System.Int32[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput(System.Int32[])
       resultStatus: 2
-      duration: 0.4438752
-      messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.CalculateAverage
-        (System.Int32[] input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:51 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests+<>c__DisplayClass7_0.<AverageTestEmptyInput>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+      duration: 0.0003062
+      messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.ArgumentNullException:
+        Value cannot be null.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.CalculateAverage
+        (System.Int32[] input) [0x00029] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
+        1\\MyMath.cs:83 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests+<>c__DisplayClass7_0.<AverageTestEmptyInput>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyMathsTests.cs:94 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestEmptyInput
-        (System.Int32[] input) [0x0000e] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.Int32[] input) [0x0000c] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\MyMathsTests.cs:92
 
 '
@@ -1480,9 +1315,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck][suite]
       name: AverageTestNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck
-      resultStatus: 2
-      duration: 0.433198
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0376177
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1496,25 +1331,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/AverageTestNullCheck/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck(null)]
       name: AverageTestNullCheck(null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck(null)
-      resultStatus: 2
-      duration: 0.4294198
-      messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.CalculateAverage
-        (System.Int32[] input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:51 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests+<>c__DisplayClass6_0.<AverageTestNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:84 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
-        expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
-        args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
+      resultStatus: 1
+      duration: 0.018915
+      messages: 
       output: 
-      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.AverageTestNullCheck
-        (System.Int32[] input) [0x0000e] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
-        1\MyMathsTests.cs:82
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1528,7 +1349,7 @@ MonoBehaviour:
       name: CeilTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
       resultStatus: 2
-      duration: 1.1001945
+      duration: 0.0028348
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1544,16 +1365,12 @@ MonoBehaviour:
       name: CeilTest(1.0f,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(1.0f,1)
       resultStatus: 2
-      duration: 0.214716
+      duration: 0.0003389
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Ceil (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1571,16 +1388,12 @@ MonoBehaviour:
       name: CeilTest(2.2f,3)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(2.2f,3)
       resultStatus: 2
-      duration: 0.2295512
+      duration: 0.0001526
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Ceil (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1598,16 +1411,12 @@ MonoBehaviour:
       name: CeilTest(3.5f,4)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(3.5f,4)
       resultStatus: 2
-      duration: 0.2211188
+      duration: 0.0001315
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Ceil (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1625,16 +1434,12 @@ MonoBehaviour:
       name: CeilTest(4.6f,5)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(4.6f,5)
       resultStatus: 2
-      duration: 0.2152818
+      duration: 0.0001164
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Ceil (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1652,16 +1457,12 @@ MonoBehaviour:
       name: CeilTest(5.9f,6)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest(5.9f,6)
       resultStatus: 2
-      duration: 0.2143541
+      duration: 0.0001154
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Ceil (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:36 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.CeilTest
+        (System.Single input, System.Int32 expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\MyMathsTests.cs:53 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -1678,9 +1479,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest][suite]
       name: ClampTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest
-      resultStatus: 2
-      duration: 0.6615312
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0329973
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1694,21 +1495,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/ClampTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(5,1,10,5)]
       name: ClampTest(5,1,10,5)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(5,1,10,5)
-      resultStatus: 2
-      duration: 0.2195757
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0174836
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Clamp (System.Int32
-        input, System.Int32 min, System.Int32 max) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:22 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest
-        (System.Int32 input, System.Int32 min, System.Int32 max, System.Int32 expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:29 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1721,21 +1512,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/ClampTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(50,1,10,10)]
       name: ClampTest(50,1,10,10)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(50,1,10,10)
-      resultStatus: 2
-      duration: 0.216829
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0000658
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Clamp (System.Int32
-        input, System.Int32 min, System.Int32 max) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:22 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest
-        (System.Int32 input, System.Int32 min, System.Int32 max, System.Int32 expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:29 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1748,21 +1529,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/ClampTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(-50,1,10,1)]
       name: ClampTest(-50,1,10,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest(-50,1,10,1)
-      resultStatus: 2
-      duration: 0.22066
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0000495
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Clamp (System.Int32
-        input, System.Int32 min, System.Int32 max) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:22 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.ClampTest
-        (System.Int32 input, System.Int32 min, System.Int32 max, System.Int32 expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:29 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1775,9 +1546,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest][suite]
       name: FloorTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
-      resultStatus: 2
-      duration: 1.126831
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0352272
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1791,21 +1562,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(1.0f,1)]
       name: FloorTest(1.0f,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(1.0f,1)
-      resultStatus: 2
-      duration: 0.2218997
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0179691
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Floor (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1818,21 +1579,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(2.2f,2)]
       name: FloorTest(2.2f,2)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(2.2f,2)
-      resultStatus: 2
-      duration: 0.2212676
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0000622
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Floor (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1845,21 +1596,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(3.5f,3)]
       name: FloorTest(3.5f,3)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(3.5f,3)
-      resultStatus: 2
-      duration: 0.2199473
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.000054
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Floor (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1872,21 +1613,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(4.6f,4)]
       name: FloorTest(4.6f,4)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(4.6f,4)
-      resultStatus: 2
-      duration: 0.2200771
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0000466
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Floor (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1899,21 +1630,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/FloorTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(5.9f,5)]
       name: FloorTest(5.9f,5)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest(5.9f,5)
-      resultStatus: 2
-      duration: 0.2386347
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0001204
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Floor (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:29 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.FloorTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:41 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1926,9 +1647,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest][suite]
       name: RoundTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
-      resultStatus: 2
-      duration: 1.3064668
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.0382476
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -1942,21 +1663,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(1.0f,1)]
       name: RoundTest(1.0f,1)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(1.0f,1)
-      resultStatus: 2
-      duration: 0.2189614
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0189428
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Round (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:43 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1969,21 +1680,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(2.2f,2)]
       name: RoundTest(2.2f,2)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(2.2f,2)
-      resultStatus: 2
-      duration: 0.2139217
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0000598
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Round (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:43 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1996,21 +1697,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.49f,3)]
       name: RoundTest(3.49f,3)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.49f,3)
-      resultStatus: 2
-      duration: 0.2238846
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0000533
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Round (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:43 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2023,21 +1714,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.5f,4)]
       name: RoundTest(3.5f,4)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(3.5f,4)
-      resultStatus: 2
-      duration: 0.2118937
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0000801
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Round (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:43 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2050,21 +1731,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(4.6f,5)]
       name: RoundTest(4.6f,5)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(4.6f,5)
-      resultStatus: 2
-      duration: 0.2194688
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0000796
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Round (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:43 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2077,21 +1748,11 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_1/MyMathsTests/RoundTest/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(5.9f,6)]
       name: RoundTest(5.9f,6)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest(5.9f,6)
-      resultStatus: 2
-      duration: 0.2130254
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
+      resultStatus: 1
+      duration: 0.0000428
+      messages: 
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyMath.Round (System.Single
-        input) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO
-        TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyMath.cs:43 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.MyMathsTests.RoundTest
-        (System.Single input, System.Int32 expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\MyMathsTests.cs:66 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2105,7 +1766,7 @@ MonoBehaviour:
       name: StringTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests
       resultStatus: 2
-      duration: 9.643931
+      duration: 0.0515558
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2121,7 +1782,7 @@ MonoBehaviour:
       name: BasicReplacement
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
       resultStatus: 2
-      duration: 1.0957454
+      duration: 0.047275
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2139,20 +1800,18 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
         {name}","Bidule","Hello Bidule")
       resultStatus: 2
-      duration: 0.2117168
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
-      output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceNameTag (System.String
-        baseString, System.String elementToInsert) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:21 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+      duration: 0.0259187
+      messages: "  String lengths are both 12. Strings differ at index 6.\r\n  Expected:
+        \"Hello Bidule\"\r\n  But was:  \"Hello {name}\"\r\n  -----------------^\r\n"
+      output: 'Hello
+
+'
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
         (System.String baseValue, System.String replacement, System.String expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+        [0x00007] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:23
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2168,20 +1827,18 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
         {name}","","Hello ")
       resultStatus: 2
-      duration: 0.2202491
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
-      output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceNameTag (System.String
-        baseString, System.String elementToInsert) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:21 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+      duration: 0.0006081
+      messages: "  Expected string length 6 but was 12. Strings differ at index 6.\r\n 
+        Expected: \"Hello \"\r\n  But was:  \"Hello {name}\"\r\n  -----------------^\r\n"
+      output: 'Hello
+
+'
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
         (System.String baseValue, System.String replacement, System.String expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+        [0x00007] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:23
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2197,20 +1854,18 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hel{name}lo
         {name}","Bidule","HelBidulelo Bidule")
       resultStatus: 2
-      duration: 0.2176373
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
-      output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceNameTag (System.String
-        baseString, System.String elementToInsert) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:21 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+      duration: 0.000533
+      messages: "  String lengths are both 18. Strings differ at index 3.\r\n  Expected:
+        \"HelBidulelo Bidule\"\r\n  But was:  \"Hel{name}lo {name}\"\r\n  --------------^\r\n"
+      output: 'Hel{name}lo
+
+'
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
         (System.String baseValue, System.String replacement, System.String expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+        [0x00007] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:23
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2226,20 +1881,18 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("{name}
         come in","Bidule","Bidule come in")
       resultStatus: 2
-      duration: 0.2147928
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
-      output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceNameTag (System.String
-        baseString, System.String elementToInsert) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:21 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
+      duration: 0.0005824
+      messages: "  String lengths are both 14. Strings differ at index 0.\r\n  Expected:
+        \"Bidule come in\"\r\n  But was:  \"{name} come in\"\r\n  -----------^\r\n"
+      output: '{name}
+
+'
+      stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
         (System.String baseValue, System.String replacement, System.String expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+        [0x00007] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        1\StringTests.cs:23
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2254,21 +1907,13 @@ MonoBehaviour:
       name: BasicReplacement("Hello you","Bidule","Hello you")
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement("Hello
         you","Bidule","Hello you")
-      resultStatus: 2
-      duration: 0.2287076
-      messages: 'System.NotImplementedException : The method or operation is not
-        implemented.'
-      output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceNameTag (System.String
-        baseString, System.String elementToInsert) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:21 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacement
-        (System.String baseValue, System.String replacement, System.String expected)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
-        1\\StringTests.cs:21 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
+      resultStatus: 1
+      duration: 0.0022925
+      messages: 
+      output: 'Hello
+
+'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -2282,7 +1927,7 @@ MonoBehaviour:
       name: BasicReplacementNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck
       resultStatus: 2
-      duration: 1.3060334
+      duration: 0.0027233
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2300,21 +1945,16 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck("Hello
         {name}",null)
       resultStatus: 2
-      duration: 0.4283653
+      duration: 0.0004389
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceNameTag
-        (System.String baseString, System.String elementToInsert) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:21 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:34 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck
-        (System.String baseValue, System.String replacement) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String replacement) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:32
 
 '
@@ -2331,21 +1971,16 @@ MonoBehaviour:
       name: BasicReplacementNullCheck(null,"Bidule")
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck(null,"Bidule")
       resultStatus: 2
-      duration: 0.431719
+      duration: 0.0002336
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceNameTag
-        (System.String baseString, System.String elementToInsert) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:21 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:34 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck
-        (System.String baseValue, System.String replacement) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String replacement) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:32
 
 '
@@ -2362,21 +1997,16 @@ MonoBehaviour:
       name: BasicReplacementNullCheck(null,null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck(null,null)
       resultStatus: 2
-      duration: 0.4415121
+      duration: 0.0002159
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceNameTag
-        (System.String baseString, System.String elementToInsert) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:21 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass1_0.<BasicReplacementNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:34 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementNullCheck
-        (System.String baseValue, System.String replacement) [0x00015] in C:\Users\lolla\OneDrive\Documents\Projets\A2
-        POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String replacement) [0x00013] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:32
 
 '
@@ -2393,7 +2023,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTag
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
       resultStatus: 2
-      duration: 1.3210516
+      duration: 0.0030347
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2412,17 +2042,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         {name}","{name}","Bidule","Hello Bidule")
       resultStatus: 2
-      duration: 0.2163973
+      duration: 0.0003132
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
         (System.String baseValue, System.String tag, System.String replacement, System.String
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -2442,17 +2068,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         {name}","{name}","","Hello ")
       resultStatus: 2
-      duration: 0.2153725
+      duration: 0.0001286
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
         (System.String baseValue, System.String tag, System.String replacement, System.String
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -2473,17 +2095,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         {insert name}","{insert name}","Bidule","Hello Bidule")
       resultStatus: 2
-      duration: 0.2260106
+      duration: 0.000118
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
         (System.String baseValue, System.String tag, System.String replacement, System.String
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -2503,17 +2121,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         ","{name}","Bidule","Hello ")
       resultStatus: 2
-      duration: 0.2189008
+      duration: 0.0001134
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
         (System.String baseValue, System.String tag, System.String replacement, System.String
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -2533,17 +2147,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("Hello
         [nom]","[name]","Bidule","Hello [nom]")
       resultStatus: 2
-      duration: 0.2145857
+      duration: 0.0001124
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
         (System.String baseValue, System.String tag, System.String replacement, System.String
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -2564,17 +2174,13 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag("oh
         bah c'est des gamerz","a","@","oh b@h c'est des g@merz")
       resultStatus: 2
-      duration: 0.2239701
+      duration: 0.0001109
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTag
         (System.String baseValue, System.String tag, System.String replacement, System.String
-        expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:47 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -2592,7 +2198,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
       resultStatus: 2
-      duration: 3.0553482
+      duration: 0.0041987
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2608,21 +2214,17 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck(null,"{name}","Bidule")
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,"{name}","Bidule")
       resultStatus: 2
-      duration: 0.4343285
+      duration: 0.0004283
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
-        (System.String baseValue, System.String tag, System.String replacement) [0x0001c]
-        in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:62
 
 '
@@ -2641,21 +2243,17 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
         {name}",null,"Bidule")
       resultStatus: 2
-      duration: 0.4324619
+      duration: 0.0002391
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
-        (System.String baseValue, System.String tag, System.String replacement) [0x0001c]
-        in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:62
 
 '
@@ -2674,21 +2272,17 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
         {name}","{name}",null)
       resultStatus: 2
-      duration: 0.4451844
+      duration: 0.000218
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
-        (System.String baseValue, System.String tag, System.String replacement) [0x0001c]
-        in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:62
 
 '
@@ -2705,21 +2299,17 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck(null,null,"Bidule")
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,null,"Bidule")
       resultStatus: 2
-      duration: 0.4456129
+      duration: 0.0002256
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
-        (System.String baseValue, System.String tag, System.String replacement) [0x0001c]
-        in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:62
 
 '
@@ -2738,21 +2328,17 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck("Hello
         {name}",null,null)
       resultStatus: 2
-      duration: 0.4224286
+      duration: 0.0002161
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
-        (System.String baseValue, System.String tag, System.String replacement) [0x0001c]
-        in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:62
 
 '
@@ -2769,21 +2355,17 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck(null,"{name}",null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,"{name}",null)
       resultStatus: 2
-      duration: 0.4299862
+      duration: 0.0002151
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
-        (System.String baseValue, System.String tag, System.String replacement) [0x0001c]
-        in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:62
 
 '
@@ -2800,21 +2382,17 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagNullCheck(null,null,null)
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck(null,null,null)
       resultStatus: 2
-      duration: 0.4391589
+      duration: 0.0002192
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass3_0.<BasicReplacementWithGivenTagNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:64 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagNullCheck
-        (System.String baseValue, System.String tag, System.String replacement) [0x0001c]
-        in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:62
 
 '
@@ -2831,7 +2409,7 @@ MonoBehaviour:
       name: BasicReplacementWithGivenTagVerifyEmptyTag
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag
       resultStatus: 2
-      duration: 0.4345614
+      duration: 0.0017899
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2849,21 +2427,17 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag("Hello
         {name}","","Bidule")
       resultStatus: 2
-      duration: 0.4311574
+      duration: 0.0003783
       messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceGivenTag
-        (System.String baseString, System.String tag, System.String replacement)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:34 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass4_0.<BasicReplacementWithGivenTagVerifyEmptyTag>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass4_0.<BasicReplacementWithGivenTagVerifyEmptyTag>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:74 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.BasicReplacementWithGivenTagVerifyEmptyTag
-        (System.String baseValue, System.String tag, System.String replacement) [0x0001c]
-        in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        (System.String baseValue, System.String tag, System.String replacement) [0x0001a]
+        in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:72
 
 '
@@ -2880,7 +2454,7 @@ MonoBehaviour:
       name: MultipleTagReplacement
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement
       resultStatus: 2
-      duration: 0.2273009
+      duration: 0.0016986
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2901,17 +2475,13 @@ MonoBehaviour:
         {name}, I'm {age} YO",System.String[],System.String[],"I'm Bidule, I'm 42
         YO")
       resultStatus: 2
-      duration: 0.2241259
+      duration: 0.0002811
       messages: 'System.NotImplementedException : The method or operation is not
         implemented.'
       output: 
-      stacktrace: "  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceMultipleTag
-        (System.String baseString, System.String[] tags, System.String[] replacements)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:47 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacement
         (System.String baseValue, System.String[] tags, System.String[] replacements,
-        System.String expected) [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2
-        POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        System.String expected) [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:87 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
         at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
         invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
@@ -2929,7 +2499,7 @@ MonoBehaviour:
       name: MultipleTagReplacementMustContainsAsManyTagsAsReplacement
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement
       resultStatus: 2
-      duration: 0.8759533
+      duration: 0.0024116
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -2948,21 +2518,17 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm
         {name}, I'm {age} YO",System.String[],System.String[])
       resultStatus: 2
-      duration: 0.4349754
+      duration: 0.0005306
       messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceMultipleTag
-        (System.String baseString, System.String[] tags, System.String[] replacements)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:47 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass7_0.<MultipleTagReplacementMustContainsAsManyTagsAsReplacement>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass7_0.<MultipleTagReplacementMustContainsAsManyTagsAsReplacement>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:124 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement
         (System.String baseValue, System.String[] tags, System.String[] replacements)
-        [0x0001c] in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        [0x0001a] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:122
 
 '
@@ -2982,21 +2548,17 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement("I'm
         {name}, I'm {age} YO",System.String[],System.String[] GeneratedTestCase2)
       resultStatus: 2
-      duration: 0.4366831
+      duration: 0.0002147
       messages: "  Expected: <System.ArgumentException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceMultipleTag
-        (System.String baseString, System.String[] tags, System.String[] replacements)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:47 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass7_0.<MultipleTagReplacementMustContainsAsManyTagsAsReplacement>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass7_0.<MultipleTagReplacementMustContainsAsManyTagsAsReplacement>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:124 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementMustContainsAsManyTagsAsReplacement
         (System.String baseValue, System.String[] tags, System.String[] replacements)
-        [0x0001c] in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        [0x0001a] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:122
 
 '
@@ -3013,7 +2575,7 @@ MonoBehaviour:
       name: MultipleTagReplacementNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck
       resultStatus: 2
-      duration: 1.3207371
+      duration: 0.002519
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -3029,21 +2591,17 @@ MonoBehaviour:
       name: MultipleTagReplacementNullCheck(null,System.String[],System.String[])
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck(null,System.String[],System.String[])
       resultStatus: 2
-      duration: 0.4383269
+      duration: 0.0003832
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceMultipleTag
-        (System.String baseString, System.String[] tags, System.String[] replacements)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:47 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:108 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck
         (System.String baseValue, System.String[] tags, System.String[] replacements)
-        [0x0001c] in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        [0x0001a] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:106
 
 '
@@ -3062,21 +2620,17 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck("I'm
         {name}, I'm {age} YO",null,System.String[])
       resultStatus: 2
-      duration: 0.4329288
+      duration: 0.0002301
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceMultipleTag
-        (System.String baseString, System.String[] tags, System.String[] replacements)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:47 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:108 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck
         (System.String baseValue, System.String[] tags, System.String[] replacements)
-        [0x0001c] in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        [0x0001a] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:106
 
 '
@@ -3095,21 +2649,17 @@ MonoBehaviour:
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck("I'm
         {name}, I'm {age} YO",System.String[],null)
       resultStatus: 2
-      duration: 0.4453485
+      duration: 0.0002225
       messages: "  Expected: <System.ArgumentNullException>\r\n  But was:  <System.NotImplementedException:
-        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Level_1.MyString.ReplaceMultipleTag
-        (System.String baseString, System.String[] tags, System.String[] replacements)
-        [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\Level
-        1\\MyString.cs:47 \r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
-        () [0x00001] in C:\\Users\\lolla\\OneDrive\\Documents\\Projets\\A2 POO TU
-        FightSystem\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        The method or operation is not implemented.\r\n  at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests+<>c__DisplayClass6_0.<MultipleTagReplacementNullCheck>b__0
+        () [0x00000] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
         1\\StringTests.cs:108 \r\n  at NUnit.Framework.Assert.Throws (NUnit.Framework.Constraints.IResolveConstraint
         expression, NUnit.Framework.TestDelegate code, System.String message, System.Object[]
         args) [0x00004] in <10b6135e63434fdba4fc6c109928ab3b>:0 >\r\n"
       output: 
       stacktrace: 'at _2023_GC_A2_Partiel_POO.Tests.Level_1.StringTests.MultipleTagReplacementNullCheck
         (System.String baseValue, System.String[] tags, System.String[] replacements)
-        [0x0001c] in C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
+        [0x0001a] in C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino\Assets\_FightSystem\_TestsUnitaires\Level
         1\StringTests.cs:106
 
 '
@@ -3126,7 +2676,7 @@ MonoBehaviour:
       name: Level_2
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2
       resultStatus: 1
-      duration: 0.1978186
+      duration: 0.00334
       messages: 
       output: 
       stacktrace: 
@@ -3142,7 +2692,7 @@ MonoBehaviour:
       name: CharacterTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests
       resultStatus: 1
-      duration: 0.0847672
+      duration: 0.0018957
       messages: 
       output: 
       stacktrace: 
@@ -3158,7 +2708,7 @@ MonoBehaviour:
       name: CharacterConstructor
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterConstructor
       resultStatus: 1
-      duration: 0.0248347
+      duration: 0.0131789
       messages: 
       output: 
       stacktrace: 
@@ -3175,7 +2725,7 @@ MonoBehaviour:
       name: CharacterEquipped
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquipped
       resultStatus: 1
-      duration: 0.0008176
+      duration: 0.0011286
       messages: 
       output: 
       stacktrace: 
@@ -3192,7 +2742,7 @@ MonoBehaviour:
       name: CharacterEquippedNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquippedNullCheck
       resultStatus: 1
-      duration: 0.0494784
+      duration: 0.0018449
       messages: 
       output: 
       stacktrace: 
@@ -3209,7 +2759,7 @@ MonoBehaviour:
       name: CharacterEquippedReceivePunch
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterEquippedReceivePunch
       resultStatus: 1
-      duration: 0.0016293
+      duration: 0.0010138
       messages: 
       output: 
       stacktrace: 
@@ -3226,7 +2776,7 @@ MonoBehaviour:
       name: CharacterReceivePunch
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CharacterReceivePunch
       resultStatus: 1
-      duration: 0.0005195
+      duration: 0.0004098
       messages: 
       output: 
       stacktrace: 
@@ -3243,7 +2793,7 @@ MonoBehaviour:
       name: CreateFightNullCheck
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.CreateFightNullCheck
       resultStatus: 1
-      duration: 0.0019383
+      duration: 0.0001583
       messages: 
       output: 
       stacktrace: 
@@ -3260,7 +2810,7 @@ MonoBehaviour:
       name: EquipmentConstructor
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.EquipmentConstructor
       resultStatus: 1
-      duration: 0.000227
+      duration: 0.0002991
       messages: 
       output: 
       stacktrace: 
@@ -3277,7 +2827,7 @@ MonoBehaviour:
       name: FightConstructor
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightConstructor
       resultStatus: 1
-      duration: 0.0003568
+      duration: 0.000313
       messages: 
       output: 
       stacktrace: 
@@ -3293,11 +2843,17 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneShotTurn]
       name: FightWithOneShotTurn
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneShotTurn
-      resultStatus: 1
-      duration: 0.000522
-      messages: 
+      resultStatus: 2
+      duration: 0.0045717
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
       output: 
-      stacktrace: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneShotTurn
+        () [0x0002d] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        2\\CharacterTests.cs:179 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -3310,11 +2866,17 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/CharacterTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneTurn]
       name: FightWithOneTurn
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneTurn
-      resultStatus: 1
-      duration: 0.0002443
-      messages: 
+      resultStatus: 2
+      duration: 0.0003282
+      messages: 'System.NotImplementedException : The method or operation is not
+        implemented.'
       output: 
-      stacktrace: 
+      stacktrace: "  at _2023_GC_A2_Partiel_POO.Tests.Level_2.CharacterTests.FightWithOneTurn
+        () [0x00028] in C:\\Users\\Home\\Documents\\Projet_Unity\\A2-POO-TU-FightSystem-Victor-Santino\\Assets\\_FightSystem\\_TestsUnitaires\\Level
+        2\\CharacterTests.cs:163 \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <88e4733ac7bc4ae1b496735e6b83bbd3>:0 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -3327,8 +2889,8 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests][suite]
       name: FightMoreTests
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests
-      resultStatus: 1
-      duration: 0.1928404
+      resultStatus: 0
+      duration: 0
       messages: 
       output: 
       stacktrace: 
@@ -3337,14 +2899,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1119
+      parentId: 1121
       parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2][suite]
     - id: 1014
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/FightMoreTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HealingTest]
       name: HealingTest
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.HealingTest
-      resultStatus: 1
-      duration: 0.121705
+      resultStatus: 0
+      duration: 0
       messages: 
       output: 
       stacktrace: 
@@ -3360,8 +2922,8 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/FightMoreTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.MaxHealthChange]
       name: MaxHealthChange
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.MaxHealthChange
-      resultStatus: 1
-      duration: 0.0011017
+      resultStatus: 0
+      duration: 0
       messages: 
       output: 
       stacktrace: 
@@ -3377,8 +2939,8 @@ MonoBehaviour:
       uniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/FightMoreTests/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.WeaknessTestOneShot]
       name: WeaknessTestOneShot
       fullName: _2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests.WeaknessTestOneShot
-      resultStatus: 1
-      duration: 0.0007099
+      resultStatus: 0
+      duration: 0
       messages: 
       output: 
       stacktrace: 
@@ -3390,13 +2952,18 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1012
       parentUniqueId: Tests.dll/_2023_GC_A2_Partiel_POO/Tests/Level_2/[Tests][_2023_GC_A2_Partiel_POO.Tests.Level_2.FightMoreTests][suite]
-    m_ResultText: FightMoreTests (0,193s)
+    m_ResultText: 'AverageTestEmptyInput (0,004s)
+
+      ---
+
+      One or more child
+      tests had errors'
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 1793}
-      m_SelectedIDs: c4064e06
-      m_LastClickedID: 105776836
-      m_ExpandedIDs: 91b31f8cd79cbc8efe0c3696c841eb9b0cb21a9c300d44b922267fc8cc9770d955fc1ee2abe076e3d5f285e4325989f49a16fcf5e557abf7a512a5f9a401b6f93ded90fca1357c04f4d4b405c4064e06e34987325cfd90383e6cef3d27b858406538b342291d7b443a619c4543af29471a9eb34a742ccb4a00a4ea52b04e8456b66d7f6c98cea67c751a9b7dffffff7f
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 27b85840
+      m_LastClickedID: 1079556135
+      m_ExpandedIDs: fe0c3696300d44b922267fc8325989f4e557abf7a512a5f9a1357c04ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3422,7 +2989,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &14
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3444,9 +3011,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 552.43634
-    width: 1278.4181
-    height: 307.76364
+    y: 584
+    width: 1435
+    height: 191.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3473,14 +3040,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/_FightSystem/Level 2
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\lolla\OneDrive\Documents\Projets\A2 POO TU FightSystem\A2-POO-TU-FightSystem-Victor-Santino
+  m_LastProjectPath: C:\Users\Home\Documents\Projet_Unity\A2-POO-TU-FightSystem-Victor-Santino
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 805a0000
-    m_LastClickedID: 23168
-    m_ExpandedIDs: 00000000b4580000505a000000ca9a3bffffff7f
+    m_SelectedIDs: f6940000
+    m_LastClickedID: 38134
+    m_ExpandedIDs: 00000000e4940000e694000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3508,7 +3075,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b4580000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3564,7 +3131,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3585,10 +3152,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1102.2545
-    y: 201.59999
-    width: 284.38177
-    height: 643.7636
+    x: 1436
+    y: 73.6
+    width: 99
+    height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3607,7 +3174,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3628,10 +3195,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 181.52727
-    y: 201.59999
-    width: 226.78181
-    height: 373.47272
+    x: 0
+    y: 73.6
+    width: 263
+    height: 503.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3642,7 +3209,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7c38ffffce38ffff283affff723affff423bffff8c3bffff5c3cffffa63cffff963dffffe83dffff4e4effff984effff684fffffb24ffffff050ffff3a51ffff7851ffffc251ffff0052ffff4e52ffff1c53ffff6a53ffff9656ffffe456ffffb457ffff0258ffff7a5affffc85affff3864ffffd665ffffcc68ffff1669ffff746affffbe6affffda6dffff246efffff26effff3c6fffff9670ffffe070ffffaa72fffff472ffffe074ffff2a75fffffa75ffff4476ffffa477ffffee77ffff4c79ffff9679ffffd27affff1c7bffff5a7bffffa47bffffe27cffff2c7dfffffc7dffff467effff9e7fffffe87fffffb680ffff0081ffff5a82ffffa482ffff7483ffffbe83ffffd88bffff468cffff848cfffff28cffff1e99ffff8c99ffff3c9affffaa9affff7a9bffffe89bffff469dffffb49dfffff29effff609fffffd8a3ffff46a4ffff16a5ffff84a5ffff52a6ffffc0a6ffff56aeffffc4aeffff50b2ffff9ab2ffffd8b2ffff46b3ffff14b4ffff82b4ffffc0b4ffff0ab5ffffd8b5ffff22b6fffff0b6ffff3ab7ffff78b8ffffc2b8ffffd2b9ffff40baffff9cbbffff0abcffffd8bcffff46bdffff84bdfffff2bdffff30beffff9ebeffff80bfffffeebfffffaac2ffff18c3ffffa0c7ffff0ec8ffffdcc8ffff4ac9ffff88c9ffffd2c9ffffc0cbffff2eccffff0ccfffff7acfffff9ed2ffff0cd3ffffdcd3ffff4ad4ffff38d6ffffa6d6ffff76d7ffffe4d7ffff56daffffc4daffff02dbffff70dbffffaedbffff48ddffff06deffff74deffffb2deffff20dfffff1ce6ffff8ae6ffff88e8fffff6e8ffff34e9ffffa2e9ffffe0e9ffff4eeaffff8ceaffff26ecfffffaedffff96efffff2efbffff
+      m_ExpandedIDs: 8274ffffcc74ffff0a75ffff5475ffff9275ffffdc75ffff1a76ffff6476ffff9278fffff078ffffc279ffff207affff5e7affffbc7affff8a7bffffe87bffffd87cffff367dfffffc7effff567fffff6081ffffba81ffffb483ffff0e84fffffe84ffff5085ffff4087ffff9287ffff6088ffffb288ffff108affff628affff328bffff848bffff528cffffa48cffff008effff528effff428fffff948fffffca90ffff1891ffff0293ffff5093ffff8e93ffffd493ffff1294ffff6094ffff9e94ffffe494ffff2295ffff7095ffffae95fffffc95ffff5697ffffa097fffffc98ffff4a99ffff1a9affff689affff529cffffa09cffff189effff669effffe49fffff32a0ffff02a1ffff50a1ffff40a2ffff8ea2ffff5ea3ffffaca3ffff7aa4ffffc8a4ffff00a7ffff4ea7ffff1ea8ffff6ca8ffff10aaffff5eaaffff2cabffff7aabffff20adffff6aadffff18aeffff86aeffff04b0ffff72b0ffffccb1ffff3ab2ffffb8b3ffff26b4fffff6b4ffff64b5ffff36b6ffffa4b6ffff94b8ffff02b9ffffd4b9ffff42baffff80baffffeebaffff56bcffffc4bcffff46bfffffb4bfffff84c0fffff2c0ffffc8c1ffff36c2ffff4ac3ffffb8c3ffff1ac5ffff88c5ffffeec6ffff5cc7ffff2cc8ffff9ac8ffff6ac9ffffd8c9ffffb6caffff52ccffff7ed1ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3666,7 +3233,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3687,10 +3254,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 317.8
-    y: 19
-    width: 960.6181
-    height: 285.32727
+    x: 290.4
+    y: 73.6
+    width: 880.4
+    height: 407
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3701,7 +3268,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -96.87274, y: -26.181816}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -3712,7 +3279,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -141, y: 149}
-      snapOffsetDelta: {x: 0, y: -95.76363}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 1
       id: unity-grid-and-snap-toolbar
       index: 1
@@ -3766,9 +3333,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: -116.94545}
-      snapOffsetDelta: {x: 0, y: 37.527267}
-      snapCorner: 2
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
       id: Orientation
       index: 0
       layout: 4
@@ -4006,7 +3573,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4057,10 +3624,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -668.50903
-    m_HBaseRangeMax: 668.50903
-    m_VBaseRangeMin: -335.56363
-    m_VBaseRangeMax: 335.56363
+    m_HBaseRangeMin: -612.8
+    m_HBaseRangeMax: 612.8
+    m_VBaseRangeMin: -307.6
+    m_VBaseRangeMax: 307.6
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -4094,13 +3661,13 @@ MonoBehaviour:
       height: 769
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1755.4167, y: 905.2084}
+  m_LastWindowPixelSize: {x: 1915, y: 987.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4121,10 +3688,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 181.52727
-    y: 596.0727
-    width: 919.72723
-    height: 249.2909
+    x: 0
+    y: 598.4
+    width: 1435
+    height: 177
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

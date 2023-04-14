@@ -28,21 +28,22 @@ namespace _2023_GC_A2_Partiel_POO.Level_1
         // classe Math & MathF
         public static int Clamp(int input, int min, int max)
         {
-            if (input < max && input >min)
-            {
-                return input;
-            }
-            else if (input > max)
+            if (input > max)
             {
                 return max;
             }
+            else if (input < min)
+            {
+                return min;
+            }
+            return input;
         }
 
         // Interdictions :
         // classe Math & MathF
         public static int Floor(float input)
         {
-            throw new NotImplementedException();
+            return (int) input;
         }
 
         // Interdictions :
@@ -56,7 +57,15 @@ namespace _2023_GC_A2_Partiel_POO.Level_1
         // classe Math & MathF
         public static int Round(float input)
         {
-            throw new NotImplementedException();
+            int intToReturn = 0;
+            float decimalInput = input - (int)input;
+            if (decimalInput >= 0.5)
+            {
+                intToReturn = (int)input + 1;
+                return intToReturn;
+            }
+            else 
+                return (int)input;
         }
 
         // Interdictions :
@@ -64,7 +73,16 @@ namespace _2023_GC_A2_Partiel_POO.Level_1
         // LINQ & Enumerable
         public static float CalculateAverage(int[] input)
         {
-            throw new NotImplementedException();
+            if (input == null) throw new ArgumentNullException();
+            if (input.Length == 0) throw new ArgumentNullException();
+
+            int somme = 0;
+            for (int i = 0; i < input.Length; i++)
+            {
+                somme += input[i];
+            }
+            return somme /= input.Length;
+
         }
 
     }
