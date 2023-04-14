@@ -30,6 +30,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// </summary>
         TYPE _baseType;
         int _health;
+        int _heal;
 
         public Character(int baseHealth, int baseAttack, int baseDefense, int baseSpeed, TYPE baseType)
         {
@@ -39,6 +40,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
             _baseDefense = baseDefense;
             _baseSpeed = baseSpeed;
             _baseType = baseType;
+            _heal = 50;
         }
         /// <summary>
         /// HP actuel du personnage
@@ -50,6 +52,18 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// </summary>
         public int MaxHealth
         {
+            set
+            {
+                if(_health >= value)
+                {
+                    _health = value;
+                    _baseHealth = value;
+                }
+                else 
+                {
+                    _baseHealth = value;
+                }
+            }
             get
             {
                 return _baseHealth;
@@ -141,5 +155,21 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
             CurrentEquipment = null;
         }
 
+        public void Heal()
+        {
+            if(CurrentHealth + _heal >= MaxHealth)
+            {
+                _health = MaxHealth;
+            }
+            else
+            {
+                _health += _heal;
+            }
+        }
+
+        public void ReduceHealthBy(int amount)
+        {
+            _health -= amount;
+        }
     }
 }
