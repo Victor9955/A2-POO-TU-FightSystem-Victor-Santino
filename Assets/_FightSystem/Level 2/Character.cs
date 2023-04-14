@@ -94,7 +94,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// </summary>
         public StatusEffect CurrentStatus { get; private set; }
 
-        public bool IsAlive => _health == 0;
+        public bool IsAlive => _health > 0;
 
 
         /// <summary>
@@ -106,7 +106,14 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// <exception cref="NotImplementedException"></exception>
         public void ReceiveAttack(Skill s)
         {
-            _health -= s.Power - _baseDefense;
+            if (_health - (s.Power - _baseDefense) <= 0)
+            {
+                _health = 0;
+            }
+            else
+            {
+                _health -= s.Power - _baseDefense;
+            }
         }
         /// <summary>
         /// Equipe un objet au personnage

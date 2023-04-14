@@ -17,7 +17,7 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
         /// <summary>
         /// Est-ce la condition de victoire/défaite a été rencontré ?
         /// </summary>
-        public bool IsFightFinished => !Character1.IsAlive || !Character2.IsAlive;
+        public bool IsFightFinished => (Character1.IsAlive && !Character2.IsAlive) || (!Character1.IsAlive && Character2.IsAlive);
 
         /// <summary>
         /// Jouer l'enchainement des attaques. Attention à bien gérer l'ordre des attaques par apport à la speed des personnages
